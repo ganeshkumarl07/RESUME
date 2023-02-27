@@ -1,0 +1,32 @@
+.click ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.click .li_wrap{
+	width:200px;
+	height: 75px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.click .li_wrap .text{
+	margin-top: 5px;
+}
+.click .li_wrap{
+	border: 2px solid #fff;
+}
+.click .li_wrap .icon,
+.click .li_wrap .text{
+	color: #fff;
+}
+.click .li_wrap:hover{
+	background: #fff;
+}
+.click .li_wrap:hover .icon,
+.click .li_wrap:hover .text{
+	color: #9153c9;
+}
